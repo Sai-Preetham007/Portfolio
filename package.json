@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:api": "sh backend/start_dev.sh",
+    "start:api": "sh backend/start_gunicorn.sh",
+    "db:migrate": "sh -c 'cd backend && python3 -m alembic upgrade head'",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
