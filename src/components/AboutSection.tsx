@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-import aboutImg from '../assets/about.png';
+import aboutImg from '../assets/hero.png';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
