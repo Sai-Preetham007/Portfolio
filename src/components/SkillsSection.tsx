@@ -4,35 +4,39 @@ import type { Variants } from 'framer-motion';
 
 const bentoCategories = [
   {
-    title: 'FRONTEND ARCHITECTURE',
-    badge: 'CORE PILLAR',
-    items: ['React.js', 'React Native', 'Tailwind CSS', 'Electron.js'],
-    description: 'Specialized in building high-performance client applications, custom component libraries, and immersive desktop/mobile interfaces.',
-    stat: '100% RESPONSIVE',
+    title: 'BACKEND & API ENGINEERING',
+    badge: 'PRODUCTION SCALE',
+    items: ['Python', 'FastAPI', 'REST APIs', 'SQLAlchemy', 'Pydantic'],
+    description:
+      'Enterprise Accounts Payable backend: modular REST APIs, PostgreSQL, RBAC, audit-oriented logging, and production fixes across database, background jobs, and integrations.',
+    stat: '85.4% AUTO-POST',
     colSpan: 'lg:col-span-7',
   },
   {
-    title: 'DISTRIBUTED BACKEND',
-    badge: 'HIGH CONCURRENCY',
-    items: ['Node.js', 'Express.js', 'Spring Boot', 'Docker', 'Redis'],
-    description: 'Engineered RESTful APIs, JWT role-based access control, caching layers, and multi-tenant SaaS backend isolation.',
-    stat: '< 40ms LATENCY',
+    title: 'AI & DOCUMENT PROCESSING',
+    badge: 'STRUCTURED EXTRACTION',
+    items: ['Google Gemini API', 'Prompt Engineering', 'Pandas', 'Fuzzy Matching', 'Data Normalization'],
+    description:
+      'AI-driven ingestion from invoices, POs, and GRNs with configurable field schemas—Gemini extraction combined with deterministic business rules for auditable processing.',
+    stat: '2.8 MIN AVG',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'DATA PLATFORMS',
-    badge: 'PERSISTENCE',
-    items: ['MongoDB Atlas', 'PostgreSQL', 'MySQL'],
-    description: 'Designing resilient relational and document schemas with optimized indexing and transaction isolation.',
-    stat: 'ACID & NOSQL',
+    title: 'ENTERPRISE INTEGRATION',
+    badge: 'ERP & COMPLIANCE',
+    items: ['SAP BAPI', 'Microsoft Graph API', 'JWT', 'RBAC', 'Workflow Automation'],
+    description:
+      'SAP workflows for PO/GRN/posting and reversals; 2-way/3-way line matching, exception review, and GST/TDS/TCS validation with configurable tolerances.',
+    stat: 'SAP BAPI',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'ALGORITHMS & MACHINE LEARNING',
-    badge: 'INTELLIGENCE',
-    items: ['C++', 'Python', 'Java', 'scikit-learn', 'OpenAI API'],
-    description: '1200+ algorithm problems solved. Applied Random Forest classifiers for real-time risk heatmaps and NLP policy analyzers.',
-    stat: '1200+ SOLVED',
+    title: 'DATA & DELIVERY',
+    badge: 'FULL STACK + OPS',
+    items: ['PostgreSQL', 'Django', 'Docker', 'Kubernetes', 'CI/CD'],
+    description:
+      'Relational schemas and migrations; Django healthcare ordering and dashboards; containerized deployments and cloud-backed document storage.',
+    stat: '3+ YRS BACKEND',
     colSpan: 'lg:col-span-7',
   },
 ];
@@ -105,10 +109,10 @@ export const SkillsSection: React.FC = () => {
             style={{ fontFamily: "'Bebas Neue', sans-serif" }}
           >
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] via-[#D5CBC0] to-[#605448] drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-              ARCHITECTURAL MASTERY.
+              AUTOMATION AT SCALE.
             </span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
-              PRECISION APPLIED.
+              AUDITABLE BY DESIGN.
             </span>
           </h2>
         </motion.div>
