@@ -1,45 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-
-const bentoCategories = [
-  {
-    title: 'BACKEND & API ENGINEERING',
-    badge: 'PRODUCTION SCALE',
-    items: ['Python', 'FastAPI', 'REST APIs', 'SQLAlchemy', 'Pydantic'],
-    description:
-      'Enterprise Accounts Payable backend: modular REST APIs, PostgreSQL, RBAC, audit-oriented logging, and production fixes across database, background jobs, and integrations.',
-    stat: '85.4% AUTO-POST',
-    colSpan: 'lg:col-span-7',
-  },
-  {
-    title: 'AI & DOCUMENT PROCESSING',
-    badge: 'STRUCTURED EXTRACTION',
-    items: ['Google Gemini API', 'Prompt Engineering', 'Pandas', 'Fuzzy Matching', 'Data Normalization'],
-    description:
-      'AI-driven ingestion from invoices, POs, and GRNs with configurable field schemas—Gemini extraction combined with deterministic business rules for auditable processing.',
-    stat: '2.8 MIN AVG',
-    colSpan: 'lg:col-span-5',
-  },
-  {
-    title: 'ENTERPRISE INTEGRATION',
-    badge: 'ERP & COMPLIANCE',
-    items: ['SAP BAPI', 'Microsoft Graph API', 'JWT', 'RBAC', 'Workflow Automation'],
-    description:
-      'SAP workflows for PO/GRN/posting and reversals; 2-way/3-way line matching, exception review, and GST/TDS/TCS validation with configurable tolerances.',
-    stat: 'SAP BAPI',
-    colSpan: 'lg:col-span-5',
-  },
-  {
-    title: 'DATA & DELIVERY',
-    badge: 'FULL STACK + OPS',
-    items: ['PostgreSQL', 'Django', 'Docker', 'Kubernetes', 'CI/CD'],
-    description:
-      'Relational schemas and migrations; Django healthcare ordering and dashboards; containerized deployments and cloud-backed document storage.',
-    stat: '3+ YRS BACKEND',
-    colSpan: 'lg:col-span-7',
-  },
-];
+import { bentoCategories } from '../../data/portfolio';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },

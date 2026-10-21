@@ -1,40 +1,6 @@
-// src/components/ExperienceSection.tsx
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-
-interface RouteStop {
-  id: string;
-  year: string;
-  title: string;
-  organization: string;
-  description: string;
-}
-
-const journey: RouteStop[] = [
-  {
-    id: '01',
-    year: 'OCT 2025 – PRESENT',
-    title: 'FORWARD DEPLOYED ENGINEER',
-    organization: 'SUPERVITY',
-    description:
-      'Built FastAPI/SQLAlchemy AP services, Gemini document ingestion, 2-way/3-way matching, SAP BAPI posting workflows, and GST/TDS/TCS validation—processing 9K+ invoices weekly at 85%+ auto-posting.',
-  },
-  {
-    id: '02',
-    year: 'JUN 2022 – AUG 2024',
-    title: 'PYTHON / DJANGO DEVELOPER',
-    organization: 'VIRTUSA CONSULTING SERVICES',
-    description:
-      'CarePoint Health prescription ordering: Django/PostgreSQL backends, warehouse dashboards, Django migrations, and Beautiful Soup pipelines for inventory metrics.',
-  },
-  {
-    id: '03',
-    year: '2018 – 2022',
-    title: 'B.TECH ELECTRICAL & ELECTRONICS',
-    organization: 'AMRITA VISWA VIDYAPEETHAM',
-    description: 'Bachelor of Technology from Amrita Vishwa Vidyapeetham, Coimbatore.',
-  },
-];
+import { journey } from '../../data/portfolio';
 
 export const ExperienceSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
