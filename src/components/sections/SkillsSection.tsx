@@ -71,10 +71,10 @@ export const SkillsSection: React.FC = () => {
             style={{ fontFamily: "'Bebas Neue', sans-serif" }}
           >
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] via-[#D5CBC0] to-[#605448] drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-              ARCHITECTURAL MASTERY.
+              AUTOMATION AT SCALE.
             </span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
-              PRECISION APPLIED.
+              AUDITABLE BY DESIGN.
             </span>
           </h2>
         </motion.div>

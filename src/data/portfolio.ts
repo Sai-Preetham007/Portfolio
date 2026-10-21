@@ -108,35 +108,39 @@ export const projects: Project[] = [
 
 export const bentoCategories: SkillCategory[] = [
   {
-    title: 'FRONTEND ARCHITECTURE',
-    badge: 'CORE PILLAR',
-    items: ['React.js', 'React Native', 'Tailwind CSS', 'Electron.js'],
-    description: 'Specialized in building high-performance client applications, custom component libraries, and immersive desktop/mobile interfaces.',
-    stat: '100% RESPONSIVE',
+    title: 'BACKEND & API ENGINEERING',
+    badge: 'PRODUCTION SCALE',
+    items: ['Python', 'FastAPI', 'REST APIs', 'SQLAlchemy', 'Pydantic'],
+    description:
+      'Enterprise Accounts Payable backend: modular REST APIs, PostgreSQL, RBAC, audit-oriented logging, and production fixes across database, background jobs, and integrations.',
+    stat: '85.4% AUTO-POST',
     colSpan: 'lg:col-span-7',
   },
   {
-    title: 'DISTRIBUTED BACKEND',
-    badge: 'HIGH CONCURRENCY',
-    items: ['Node.js', 'Express.js', 'Spring Boot', 'Docker', 'Redis'],
-    description: 'Engineered RESTful APIs, JWT role-based access control, caching layers, and multi-tenant SaaS backend isolation.',
-    stat: '< 40ms LATENCY',
+    title: 'AI & DOCUMENT PROCESSING',
+    badge: 'STRUCTURED EXTRACTION',
+    items: ['Google Gemini API', 'Prompt Engineering', 'Pandas', 'Fuzzy Matching', 'Data Normalization'],
+    description:
+      'AI-driven ingestion from invoices, POs, and GRNs with configurable field schemas—Gemini extraction combined with deterministic business rules for auditable processing.',
+    stat: '2.8 MIN AVG',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'DATA PLATFORMS',
-    badge: 'PERSISTENCE',
-    items: ['MongoDB Atlas', 'PostgreSQL', 'MySQL'],
-    description: 'Designing resilient relational and document schemas with optimized indexing and transaction isolation.',
-    stat: 'ACID & NOSQL',
+    title: 'ENTERPRISE INTEGRATION',
+    badge: 'ERP & COMPLIANCE',
+    items: ['SAP BAPI', 'Microsoft Graph API', 'JWT', 'RBAC', 'Workflow Automation'],
+    description:
+      'SAP workflows for PO/GRN/posting and reversals; 2-way/3-way line matching, exception review, and GST/TDS/TCS validation with configurable tolerances.',
+    stat: 'SAP BAPI',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'ALGORITHMS & MACHINE LEARNING',
-    badge: 'INTELLIGENCE',
-    items: ['C++', 'Python', 'Java', 'scikit-learn', 'OpenAI API'],
-    description: '1200+ algorithm problems solved. Applied Random Forest classifiers for real-time risk heatmaps and NLP policy analyzers.',
-    stat: '1200+ SOLVED',
+    title: 'DATA & DELIVERY',
+    badge: 'FULL STACK + OPS',
+    items: ['PostgreSQL', 'Django', 'Docker', 'Kubernetes', 'CI/CD'],
+    description:
+      'Relational schemas and migrations; Django healthcare ordering and dashboards; containerized deployments and cloud-backed document storage.',
+    stat: '3+ YRS BACKEND',
     colSpan: 'lg:col-span-7',
   },
 ];
@@ -144,37 +148,25 @@ export const bentoCategories: SkillCategory[] = [
 export const journey: RouteStop[] = [
   {
     id: '01',
-    year: 'MAY - JUN 2026',
-    title: 'FULL STACK & MOBILE INTERN',
-    organization: 'TECHNICAL HUB PVT LTD',
-    description: 'Engineered cross-platform mobile and responsive web applications utilizing React Native and modern full-stack workflows.',
+    year: 'OCT 2025 – PRESENT',
+    title: 'FORWARD DEPLOYED ENGINEER',
+    organization: 'SUPERVITY',
+    description:
+      'Built FastAPI/SQLAlchemy AP services, Gemini document ingestion, 2-way/3-way matching, SAP BAPI posting workflows, and GST/TDS/TCS validation—processing 9K+ invoices weekly at 85%+ auto-posting.',
   },
   {
     id: '02',
-    year: '2026 MILESTONE',
-    title: 'TOP 100 NATIONAL TEAM',
-    organization: 'MYNTRA WEFORSHE HACKERRAMP',
-    description: 'Ranked among the Top 100 nationwide teams while maintaining Department Topper status (9.07 CGPA) in Data Science.',
+    year: 'JUN 2022 – AUG 2024',
+    title: 'PYTHON / DJANGO DEVELOPER',
+    organization: 'VIRTUSA CONSULTING SERVICES',
+    description:
+      'CarePoint Health prescription ordering: Django/PostgreSQL backends, warehouse dashboards, Django migrations, and Beautiful Soup pipelines for inventory metrics.',
   },
   {
     id: '03',
-    year: 'MAY - JUN 2025',
-    title: 'FULL STACK TRAINEE',
-    organization: 'TECHNICAL HUB PVT LTD',
-    description: 'Trained in modern full-stack architecture, developing and deploying end-to-end interactive responsive web platforms.',
-  },
-  {
-    id: '04',
-    year: '2023 - 2027',
-    title: 'B.TECH IN DATA SCIENCE',
-    organization: 'ADITYA COLLEGE OF ENGINEERING',
-    description: 'Specializing in Machine Learning and System Design. Solved 1200+ algorithm challenges across LeetCode, CodeChef, and GeeksforGeeks.',
-  },
-  {
-    id: '05',
-    year: '2021 - 2023',
-    title: 'HIGHER SECONDARY (MPC)',
-    organization: 'SRI CHAITANYA JUNIOR COLLEGE',
-    description: 'Completed specialized coursework in Mathematics, Physics, and Chemistry with 90.60% aggregate excellence.',
+    year: '2018 – 2022',
+    title: 'B.TECH ELECTRICAL & ELECTRONICS',
+    organization: 'AMRITA VISWA VIDYAPEETHAM',
+    description: 'Bachelor of Technology from Amrita Vishwa Vidyapeetham, Coimbatore.',
   },
 ];
