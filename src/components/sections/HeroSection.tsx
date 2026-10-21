@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-import watermarkImg from '../assets/watermark.png';
+import watermarkImg from '../../assets/watermark.png';
+import { navItems } from '../../data/portfolio';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -26,14 +27,6 @@ const fadeUpVariants: Variants = {
     },
   },
 };
-
-const navItems = [
-  { name: 'ABOUT', href: '#about' },
-  { name: 'PROJECTS', href: '#work' },
-  { name: 'SKILLS', href: '#skills' },
-  { name: 'EXPERIENCE', href: '#experience' },
-  { name: 'CONTACT', href: '#contact' },
-];
 
 export const HeroSection: React.FC = () => {
   const [cursorPos, setCursorPos] = useState({ x: -100, y: -100 });

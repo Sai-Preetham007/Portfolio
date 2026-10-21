@@ -1,41 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-
-const bentoCategories = [
-  {
-    title: 'FRONTEND ARCHITECTURE',
-    badge: 'CORE PILLAR',
-    items: ['React.js', 'React Native', 'Tailwind CSS', 'Electron.js'],
-    description: 'Specialized in building high-performance client applications, custom component libraries, and immersive desktop/mobile interfaces.',
-    stat: '100% RESPONSIVE',
-    colSpan: 'lg:col-span-7',
-  },
-  {
-    title: 'DISTRIBUTED BACKEND',
-    badge: 'HIGH CONCURRENCY',
-    items: ['Node.js', 'Express.js', 'Spring Boot', 'Docker', 'Redis'],
-    description: 'Engineered RESTful APIs, JWT role-based access control, caching layers, and multi-tenant SaaS backend isolation.',
-    stat: '< 40ms LATENCY',
-    colSpan: 'lg:col-span-5',
-  },
-  {
-    title: 'DATA PLATFORMS',
-    badge: 'PERSISTENCE',
-    items: ['MongoDB Atlas', 'PostgreSQL', 'MySQL'],
-    description: 'Designing resilient relational and document schemas with optimized indexing and transaction isolation.',
-    stat: 'ACID & NOSQL',
-    colSpan: 'lg:col-span-5',
-  },
-  {
-    title: 'ALGORITHMS & MACHINE LEARNING',
-    badge: 'INTELLIGENCE',
-    items: ['C++', 'Python', 'Java', 'scikit-learn', 'OpenAI API'],
-    description: '1200+ algorithm problems solved. Applied Random Forest classifiers for real-time risk heatmaps and NLP policy analyzers.',
-    stat: '1200+ SOLVED',
-    colSpan: 'lg:col-span-7',
-  },
-];
+import { bentoCategories } from '../../data/portfolio';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
